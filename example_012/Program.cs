@@ -29,10 +29,10 @@ string Replace(string text, char oldValue, char newValue)//конкретный 
 //string newText = Replace(text, ' ', '|');// замена пробелов на |
 //Console.WriteLine(newText);
 
-// Console.WriteLine();
-// string newText= Replace(text, 'к', 'К');//замена русской к на К
-// Console.WriteLine(newText);
+Console.WriteLine();
+string newText= Replace(text, 'к', 'К');//замена русской к на К
+Console.WriteLine(newText);
 
 Console.WriteLine();
-string newText = Replace(text, 'с', 'С');// замена с на С
-Console.WriteLine(newText);
+string NewText = Replace(text, 'с', 'С');// замена с на С
+Console.WriteLine(NewText);
